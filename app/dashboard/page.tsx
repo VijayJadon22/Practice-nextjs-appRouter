@@ -13,8 +13,8 @@ const DashboardPage = () => {
     <>
       <h1>This is Dashboard Page</h1>
       <form action={sayHello}>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
+        <input type="text" name="name" className="border"/>
+        <input type="email" name="email" className="border"/>
         <button>Say Hello</button>
       </form>
     </>
